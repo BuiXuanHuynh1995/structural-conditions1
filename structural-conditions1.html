@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện 1</title>
+</head>
+<body>
+<!--<script>
+    //Bài 1
+    let a = Number(prompt("Nhập a", ""));
+    let b = Number(prompt("Nhập b", ""));
+    if (a % b == 0) {
+        alert("a chia hết cho b");
+    } else {
+        alert("a không chia hết cho b")
+    }
+</script>-->
+
+<!--<script>
+    //Bài 2
+    let old = Number(prompt("Mời nhập tuổi của học sinh", ""));
+    if (old < 16) {
+        alert("không đủ điệu kiện vào học lớp 10")
+    } else {
+        alert("đủ điều kiện vào lớp 10")
+    }
+</script>-->
+
+<!--<script>
+    //Bài 3
+    let number = parseInt(prompt("nhập số nguyên"));
+    if (number > 0) {
+        alert(number + " là số nguyên lớn hơn "+ 0);
+    } else {
+        alert(number + " là số nguyên nhỏ hơn "+ 0);
+    }
+</script>-->
+
+<!--<script>
+    //Bài 4
+    let number1 = parseInt(prompt("Enter number 1"));
+    let number2 = parseInt(prompt("Enter number 2"));
+    let number3 = parseInt(prompt("Enter number 3"));
+    if(number1>number2 && number1>number3){
+        alert(number1 + " max");
+    } else if (number2>number1 && number2>number3){
+        alert(number2 + " max");
+    } else {
+        alert(number3 + " max");
+    }
+</script>-->
+
+<!--<script>
+    //Bài 5
+    let fisrtScore = Number(prompt("Please enter fisrt score"));
+    let midScore = Number(prompt("Please enter mid score"));
+    let lastScore = Number(prompt("Please enter last score"));
+    let mediumScore = (fisrtScore + midScore + lastScore)/3;
+    if(mediumScore>=8){
+        alert("Rank well");
+    } else if (mediumScore>=6.5){
+        alert("Rank pretty ");
+    } else if(mediumScore >=4.5){
+        alert("Rank medium")
+    } else {
+        alert("Rank poor")
+    }
+</script>-->
+
+<!--<script>
+    //Baif 6
+    let revenue = Number(prompt("Please enter order",""));
+    if (revenue<=100){
+        rose = (revenue*5)/100;
+        alert("You have "+ rose);
+    } else if (revenue<=300){
+        rose = (revenue*10)/100;
+        alert("You have "+ rose)
+    } else {
+        rose = (revenue*20)/100;
+        alert("You have "+ rose);
+    }
+</script>-->
+
+
+<script>
+    //Bài7
+    var cuocDienThoai;
+    var phut = Number(prompt("Mời nhập số phút"));
+    var phiBatBuoc = 25;
+    if(phut>200){
+        cuocDienThoai = (phut - 200)*200 + 150*400+50*600+25;
+        alert("Cước điện thoại là "+ cuocDienThoai)
+    } else if(phut>50) {
+        cuocDienThoai = (phut - 50) * 400 + 50 * 600 + 25;
+        alert("Cước điện thoai là " + cuocDienThoai);
+    } else {
+        cuocDienThoai= phut*600;
+        alert("Cước điện thoại là " + cuocDienThoai);
+    }
+</script>
+</body>
+</html>
